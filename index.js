@@ -7,7 +7,7 @@ import Header from './src/components/header';
 //create component
 // eslint-disable-next-line no-undef
 const App = () => (
-  <View>
+  <View style={{flex:1}}>
     <Header headerText={'Albums'} />
     <AlbumList />
   </View>
